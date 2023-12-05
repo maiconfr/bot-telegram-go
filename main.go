@@ -8,8 +8,6 @@ import (
 	"github.com/joho/godotenv"
 )
 
-//var telegramApi string = telegramApiBaseUrl + "6615849144:AAH23aKazgR1kBLH9Bvjqn0P8wBOTsctl0g" + telegramApiSendMessage
-
 func main() {
 	err := godotenv.Load(".env")
 	if err != nil {
